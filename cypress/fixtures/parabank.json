@@ -1,0 +1,29 @@
+{
+    "baseUrl": "https://parabank.parasoft.com/parabank/register.htm",
+    
+    "registrationData": {
+        "FirstName": "Myro",
+        "LastName": "Naz",
+        "Address": "10 main str",
+        "City": "Sacramento",
+        "State": "CA",
+        "ZipCode": "29837",
+        "Phone": "2329938403",
+        "Ssn": "398478201",
+        "Username": "user2",
+        "Password": "p@ssword",
+        "ConfirmPassword": "p@ssword"
+    },
+
+    "RegistrationTextVerification": "Your account was created successfully. You are now logged in.",
+    "AccountsOverviewTxt": "Accounts Overview",
+    "TypeOfAccountsverification": "What type of Account would you like to open?"
+
+    
+
+
+
+
+}
+
+
