@@ -17,14 +17,14 @@ class demo_cart_PO {
       this.tHeadXSelector = "#page-wrapper > div > div.col-lg-8 > div > table > thead > tr > th:nth-child(4)"
       this.tHeadXtext = "x"
      
-      this.PlaceOrderButton = "#page-wrapper > div > div.col-lg-1 > button";
+      this.PlaceOrderButton = ".btn.btn-success";
       this.nameInput = "#name";
       this.countryInput = "#country";
       this.cityInput = "#city";
       this.cardInput = "#card";
       this.monthInput = "#month";
       this.yearInput = "#year";
-      this.purchaseButton ='button.btn.btn-primary[type="button"][onclick="purchaseOrder()"]';
+      this.purchaseButton ="button[onclick='purchaseOrder()']";
       this.confirmationMessageSelector = "body > div.sweet-alert.showSweetAlert.visible > h2"
       this.confirmationMessageText = "Thank you for your purchase!";
       this.confirmButton = ".confirm";

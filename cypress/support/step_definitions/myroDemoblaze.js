@@ -95,6 +95,7 @@ Then("I check x label", () => {
 
 Then("I click the Place Order Button", () => {
   cartPage.clickPlaceOrderbutton()
+  cy.wait(1000)
 });
 
 Then("I fill out the Place Order Field", () => {
